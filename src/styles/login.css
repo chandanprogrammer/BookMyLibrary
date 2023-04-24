@@ -1,0 +1,153 @@
+.loginForm {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--body-color);
+}
+.login {
+    max-width: 60vw;
+    max-height: 70vh;
+    min-width: 60vw;
+    min-height: 70vh;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2em;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.3);
+}
+.loginImage {
+  width: 50%;
+  height: 70vh;
+}
+.loginImage img {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+}
+.loginInput form {
+  display: flex;
+  flex-direction: column;
+}
+.mainLogin {
+  width: 50%;
+  margin-right: 30px;
+}
+.mainLogin h4 {
+  margin-bottom: 0.3em;
+  text-align: center;
+  font-size: 18px;
+}
+.mainLogin h2 {
+  margin-bottom: 1.2em;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+}
+.mainLogin p {
+  margin-bottom: 1.6em;
+  font-size: 14px;
+  text-align: center;
+}
+
+.loginImage {
+    width: 50%;
+}
+.loginInput img {
+    width: 20px;
+    object-fit: fill;
+}
+
+.mobileNumberInput {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 12px 6px;
+}
+.flagIcon {
+  margin: 0 15px;
+}
+#mobileNumber {
+  margin-left: 20px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  width: 100%;
+  padding-right: 10px;
+  /* margin-bottom: 10px; */
+}
+#mobileNumber:focus {
+  outline-width: 0;
+}
+.getOTP {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#getOTP {
+  background: var(--main-button);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.6);
+  border: none;
+  margin: 20px 0;
+  padding: 12px 40px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#getOTP:hover {
+  background: var(--main-button-hover);
+  transition: 0.4s;
+}
+
+.googleLogin {
+  background: var(--blue-button);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: row;
+  margin: 0px 50px;
+  padding: 4px;
+  height: 38px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.googleLogin:hover {
+  background: var(--blue-button-hover);
+}
+.googleLogin div{
+    margin-top: 3px;
+  width: 100%;
+}
+.googleLogin p {
+  color: #fff;
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+.googleLogin img {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.divider{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.divider hr{
+    width: 40%;
+}
